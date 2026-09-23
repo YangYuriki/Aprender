@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Exercicio 11</title>
+    <title>Exercicio 12</title>
 </head>
 <body>
-    <h1>Imagens dinamicas</h1>
-    <p>Tag &lt;picture&gt;</p>
-    <picture>
+    <h1>Videos em hospedagem propria</h1>
+    <p>Tag &lt;video&gt;</p>
+    <video width="560" controls poster="imagem/limoes-capa.png">
+        <source src="video/paisagem.mp4.mp4" type="video/mp4">
+        <source src="video/paisagem.webm.webm" type="video/webm">
+        <source src="video/paisagem.ogv.ogv" type="video/ogg">
+        <p>infelizmente o seu navegador não suporta videos</p>
+    </video>
+    <h1>Videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qDFEeeLy6ws?si=mgNUiYkj0eTqKJQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Foto grande">
-    </picture>
+
+
 
 </body>
 </html>
